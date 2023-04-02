@@ -1,0 +1,6 @@
+<div>
+  <input type="text" [(ngModel)]="value" />
+  <button (click)="onAdd()" class="btn btn-primary">Add to counter</button>
+</div>
+
+<h4>{{ (counter$ | async)?.text }}</h4>
