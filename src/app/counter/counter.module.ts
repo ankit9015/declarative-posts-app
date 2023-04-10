@@ -9,7 +9,7 @@ import { FormsModule } from '@angular/forms';
 import { StoreModule } from '@ngrx/store';
 import { counterReducer } from './state/counter.reducer';
 
-const routes: Routes = [{ path: 'counter', component: CounterComponent }];
+const routes: Routes = [{ path: '', component: CounterComponent }];
 
 @NgModule({
   imports: [
